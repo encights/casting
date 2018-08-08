@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="user-scalable=no ,width=device-width ,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>HTML</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="fonts/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bxslider.css" rel="stylesheet" type="text/css">
+    <link href="css/fullpage.css" rel="stylesheet" type="text/css">
+    <link rel='stylesheet prefetch' href='http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'>
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,,200,300,600,700" rel="stylesheet" type="text/css">
+</head>
+<body ng-app="root">
+<!--  header  -->
+    <header>
+        <div class="container-fluid">
+                <div class="logo">
+                    <a href="#home" class="logo-link scroll">
+                        <img src="img/ftc-logo.png" data-second-logo="images/logo/logo_condensed_dark.png" alt="FTC_logo">
+                    </a>
+                </div>
+                <nav>
+               <a href="#" id="btn-drop" class="btn-menu aln-centro"><i class="fa fa-bars"></i></a>	
+                    <!-- Nav List -->
+                    <ul id="submenu" class="lista-menu aln-centro">
+                        <li ><a href="#home" class="scroll"><i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <li><a href="#aboutftc" class="scroll"><i class="fa fa-question-circle"></i> About FTC</a>
+                        </li>
+                        <li><a href="#opportunities" class="scroll"><i class="fa fa-sticky-note-o"></i> News &amp; opportunities</a>
+                        </li>
+                        <li><a href="#skills"><i class="fa fa-th-list"></i> FAQS</a>
+                        </li>
+                        <li class="sn-lgn" ng-controller="popupController">
+
+
+                            <a href="#"><i class="fa fa-user ui"></i>My Profile <span class="ard"><img src="img/ard.png"></span></a>
+                            
+
+
+
+
+
+                        </li>
+                    </ul>
+                    <!-- End Nav List -->
+                </nav>
+       
+        </div>
+    </header>
+    <!--  header END  -->
+    <div class="clearfix"></div>  
+ <div class="mid-section">         
+        <div class="cl-1">
+              <div class="row mng-1">
+                  <div class="col-md-2  col-sm-2  res-m">
+                      <div class="lft-br">                          
+                         
+                                <div class="edt-pf">
+                                     <h1>Edit Profile <span><a href="#"><i class="fa fa-pencil-square-o"></i></a></span></h1>
+                                     <p>Give Us Your Details</p>
+                                </div>
+                                
+                                <div class="brd"></div>
+                                <div class="bt-menu">
+                                    <a href="#">All Talent</a>
+                                    <a href="#">Success Stories</a>
+                                  
+                                </div>
+                                
+                               
+                      </div>
+                  </div>
+                  
+                  <div class="col-sm-7">
+                  <div class="tlt-h">
+                      
+                        
+                          
+                          <div class="r-c">
+
+    <ul>
+     
+        <li>
+        <span class="tcn"><img src="img/mytalent-icon/actor.png" alt="actor"></span>
+            <span>Actor</span>
+            <small>16,723</small>
+
+        </li>
+        <li>
+        <span class="tcn"><img src="img/mytalent-icon/comedian.png" alt="Comedian"></span>
+            <span>Comedian</span> 
+              <small>15,629</small>
+              
+            
+            
+
+
+        </li>
+        <li>
+        <span class="tcn"><img src="img/mytalent-icon/cd.png" alt="Casting Director"></span>
+         <span>Casting Director</span>     
+               <small>15,629</small> 
+
+        </li>
+        <li>
+        <span class="tcn"><img src="img/mytalent-icon/model.png" alt="Model"></span>
+           <span>Model</span> 
+                     <small>15,629</small>
+
+        </li>
+        <li>
+          <span class="tcn"><img src="img/mytalent-icon/scr-wr.png" alt="Script Writer"></span>
+         <span>Script Writer</span>  
+                   <small>15,629</small>
+
+        </li>
+        <li>
+         <span class="tcn"><img src="img/mytalent-icon/fsc.png" alt="Film & Stage Crew"></span>
+          <span>Film & Stage Crew</span>     
+                <small>15,629</small>
+          
+
+        </li>
+        <li>
+          <span class="tcn"><img  src="img/mytalent-icon/dancer.png" alt="Dancer"></span>
+          <span>Dancer</span> 
+                    <small>15,629</small>
+
+        </li>
+        <li>
+         <span class="tcn"><img src="img/mytalent-icon/musician.png" alt="Musician"></span>
+            <span>Musician</span> 
+                      <small>15,629</small>
+
+        </li>
+        <li>
+         <span class="tcn"><img src="img/mytalent-icon/signer.png" alt="Singer"></span>
+            <span>Singer</span>
+                      <small>15,629</small>
+
+        </li>
+    </ul>
+</div>
+     <div class="drp-ct pull-right">
+  
+      
+               <div class="btn-group">
+                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                   <span data-bind="label">Category</span><span class="caret"></span>
+                 </button>
+                 <ul class="dropdown-menu" role="menu">
+                   <li><a href="#">Category</a></li>
+                   <li><a href="#">Another item</a></li>
+                   <li><a href="#">This is a longer item that will not fit properly</a></li>
+                 </ul>
+               </div>
+                        <div class="btn-group">
+                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                   <span data-bind="label">Country</span><span class="caret"></span>
+                 </button>
+                 <ul class="dropdown-menu" role="menu">
+               
+                   <li><a href="#">Another item</a></li>
+                   <li><a href="#">This is a longer item that will not fit properly</a></li>
+                 </ul>
+               </div>
+                        <div class="btn-group">
+                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                   <span data-bind="label">Gender</span><span class="caret"></span>
+                 </button>
+                 <ul class="dropdown-menu" role="menu">
+                 
+                   <li><a href="#">Male</a></li>
+                   <li><a href="#">Female</a></li>
+                 </ul>
+               </div>
+          
+          <button class="apl-b">Apply</button>
+             
+             
+       
+    
+
+     </div>
+              
+              <div class="tlnt-ct-in">
+                <ul>
+                  <li>
+                  <div><img src="img/talents/1.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+
+                  <li>
+                  <div><img src="img/talents/2.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+
+                  <li>
+                  <div><img src="img/talents/2.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+
+                  <li>
+                  <div><img src="img/talents/4.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+                            <li>
+                  <div><img src="img/talents/5.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+                     <li>
+                  <div><img src="img/talents/6.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+                     <li>
+                  <div><img src="img/talents/7.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+                     <li>
+                  <div><img src="img/talents/8.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+                     <li>
+                  <div><img src="img/talents/9.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+
+   <li>
+                  <div><img src="img/talents/10.jpg"></div>
+                    <h3>Shruti Mehera</h3>
+                    <small>Delhi</small>
+                  </li>
+
+
+
+
+
+
+                </ul>
+              </div>
+ </div>
+     </div>
+                     
+                    
+                      
+                       
+                   
+                       <!------------Actor Close--------------->
+                                          
+              
+                  
+                       <!------------Models Close--------------->
+                        
+                
+                  
+                       <!------------Dancers Close--------------->
+                       
+             
+                       
+                       <!------------COMEDIAN Close--------------->
+                      
+                
+                      
+                       <!------------SCRIPT WRITER Close--------------->
+                       
+               
+                        <!------------CASTING DIRECTOR Close--------------->
+                        
+         
+                  
+                        <!------------FILM & STAGE CREW Close--------------->
+                
+                       <!------------MUSICIAN Close--------------->
+                       
+         
+                        
+                         <!------------SINGER Close--------------->
+                  
+         
+                  
+                  <div class="col-sm-3 gr-bg">
+                      <div class="row mng-1">
+                           <div class="col-sm-12"><img src="img/space1.png"></div>
+                           <div class="col-sm-12"><img src="img/space2.png"></div>
+                           <div class="col-sm-6"><img src="img/space3.png"></div>
+                           <div class="col-sm-6"><img src="img/space3.png"></div>
+                           <div class="col-sm-12"><img src="img/space1.png"></div>
+                      </div>
+                  </div>
+              </div>
+        </div>    
+          
+</div>
+ </div>
+    <!--  popup  -->
+<div id="talent" class="white-popup mfp-with-anim mfp-hide">I am a talent</div>
+    <div id="Producer" class="white-popup mfp-with-anim mfp-hide">I am a Producer.</div>
+    <div id="register" class="white-popup mfp-with-anim mfp-hide">Register</div>
+    <div id="video" class="white-popup mfp-with-anim mfp-hide">Register</div>
+    
+    
+    
+     <!--  Script  -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript">
+   $( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
+
+      var $target = $( event.currentTarget );
+
+      $target.closest( '.btn-group' )
+         .find( '[data-bind="label"]' ).text( $target.text() )
+            .end()
+         .children( '.dropdown-toggle' ).dropdown( 'toggle' );
+
+      return false;
+
+   });
+       </script>
+
+
+  
+
+    
+    <!--  popup End  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Js/modernizr.2.7.1.min.js"></script>
+
+    <!-- For FullPage Scroll and Dotted Nav -->
+
+    <script src="http://bxslider.com/lib/jquery.bxslider.js"></script>
+    <script src='http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js'></script>
+    <script type="text/javascript" src="Js/custom.js"></script>
+    <!-- Angulsr js -->
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>       
+         <script src="http://crisbeto.github.io/angular-svg-round-progressbar/roundProgress.min.js"></script> 
+         <script type="text/javascript" src="Js/gallery.js"></script>  
+ 
+    <script type="text/javascript" src="Js/controler.js"></script>
+       
+  
+</body>
+</html>

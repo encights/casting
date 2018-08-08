@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="user-scalable=no ,width=device-width ,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>HTML</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="font/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bxslider.css" rel="stylesheet" type="text/css">
+    <link href="css/fullpage.css" rel="stylesheet" type="text/css">
+    <link rel='stylesheet prefetch' href='http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'>
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,,200,300,600,700" rel="stylesheet" type="text/css">
+</head>
+<body ng-app="root">
+<!--  header  -->
+    <header class="home-header">
+        <div class="container">
+                <div class="logo">
+                    <a href="#home" class="logo-link scroll">
+                        <!--<img src="img/ftc-logo.png" data-second-logo="images/logo/logo_condensed_dark.png" alt="FTC_logo">-->
+                    </a>
+                </div>
+                
+       
+        </div>
+    </header>
+    <!--  header END  -->
+    
+    <section id="fullpage">
+        <div class="section ">
+            <div id="sliderwrapper" ng-controller="bxctrl" class="main-sld">
+                <div slideit="images"></div>
+            </div>
+            <div class="box-sld">
+              
+                <div class="t-btn" id="inline-popups">
+                    <div class="row">
+                    <img src="img/hp-slogo.png">
+                        <div class="col-md-12"><a href="#register" data-effect="mfp-zoom-in" class="home-button-reg"><i class="fa fa-pencil"></i> Register Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="section">
+        </div>
+        <div class="section">
+        </div>
+    </section>
+    <!--  popup  -->
+    <div id="talent" class="white-popup mfp-with-anim mfp-hide">I am a talent</div>
+    <div id="Producer" class="white-popup mfp-with-anim mfp-hide">I am a Producer.</div>
+    <div id="register" class="white-popup mfp-with-anim mfp-hide">Register</div>
+    <div id="video" class="white-popup mfp-with-anim mfp-hide">Register</div>
+    <!--  popup End  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Js/modernizr.2.7.1.min.js"></script>
+
+    <!-- For FullPage Scroll and Dotted Nav -->
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/fullpage.plugins.js"></script>
+    <script src="http://bxslider.com/lib/jquery.bxslider.js"></script>
+    <script src='http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js'></script>
+    <script type="text/javascript" src="Js/custom.js"></script>
+    <!-- Angulsr js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script type="text/javascript" src="Js/controler.js"></script>
+</body>
+</html>

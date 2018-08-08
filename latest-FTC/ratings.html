@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="user-scalable=no ,width=device-width ,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>HTML</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="fonts/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bxslider.css" rel="stylesheet" type="text/css">
+    <link href="css/fullpage.css" rel="stylesheet" type="text/css">
+    <link rel='stylesheet prefetch' href='http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'>
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,,200,300,600,700" rel="stylesheet" type="text/css">
+<link href="css/gallery.css" rel="stylesheet" type="text/css">
+</head>
+<body ng-app="root">
+<!--  header  -->
+    <header>
+        <div class="container-fluid">
+                <div class="logo">
+                    <a href="#home" class="logo-link scroll">
+                        <img src="img/ftc-logo.png" data-second-logo="images/logo/logo_condensed_dark.png" alt="FTC_logo">
+                    </a>
+                </div>
+                <nav>
+               <a href="#" id="btn-drop" class="btn-menu aln-centro"><i class="fa fa-bars"></i></a>	
+                    <!-- Nav List -->
+                    <ul id="submenu" class="lista-menu aln-centro">
+                        <li ><a href="#home" class="scroll"><i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <li><a href="#aboutftc" class="scroll"><i class="fa fa-question-circle"></i> About FTC</a>
+                        </li>
+                        <li><a href="#opportunities" class="scroll"><i class="fa fa-sticky-note-o"></i> News &amp; opportunities</a>
+                        </li>
+                        <li><a href="#skills"><i class="fa fa-th-list"></i> FAQS</a>
+                        </li>
+                        <li class="sn-lgn" ng-controller="popupController">
+
+
+                            <a href="#"><i class="fa fa-user ui"></i>My Profile <span class="ard"><img src="img/ard.png"></span></a>
+                            
+
+
+
+
+
+                        </li>
+                    </ul>
+                    <!-- End Nav List -->
+                </nav>
+       
+        </div>
+    </header>
+    <!--  header END  -->
+    <div class="clearfix"></div>  
+ <div class="mid-section">         
+        <div class="cl-1">
+           
+                  <div class="lft-m-ct">
+                      <div class="lft-br ppb-lbr">
+                      <div class="user-plft">
+                    <div class="ppp-ct">
+                      <span class="ppp"><img src="img/talents/1.jpg"></span>
+                       <p>Avantika Mishra
+                        <small>F, Actor, Model</small>
+</p>
+<a href="#" class="flw">Follow</a>
+                    
+                    </div>
+                  
+                  
+                  
+                  </div>
+                       <div class="bt-menu">
+                       <a href="#all">All</a>
+                            <a href="#section1">About Me</a>
+                            <a href="#section2">Photos</a>
+                            <a href="#section3">Videos</a>                     
+                            <a href="#">Followers</a>
+                            <a href="#">Following</a>
+                       </div>
+                      </div>
+                  </div>
+                  <div class="ppb-rct" id="all">
+                  <div class="cvr"><img src="img/model.jpg"></div>
+                  
+                  <div class="rate"><div class="" ng-controller="ratingctrl">
+                  <div class="rate-cl"> 
+                  <h2>Actor</h2>
+                   <div star rating-value="ratingVal" max="max" on-hover="onHover" on-leave="onLeave" readonly="{{readonly}}"></div></div>
+                   
+                   
+                   <div class="rate-cl"> 
+                  <h2>Comedian</h2>
+                   <div star rating-value="ratingVal1" max="max" on-hover="onHover" on-leave="onLeave" readonly="{{readonly}}"></div></div>
+                   <div class="rate-cl"> 
+                  <h2>Casting Director</h2>
+                   <div star rating-value="ratingVal2" max="max" on-hover="onHover" on-leave="onLeave" readonly="{{readonly}}"></div></div>
+                   <div class="rate-cl"> 
+                  <h2>Model</h2>
+                   <div star rating-value="ratingVal3" max="max" on-hover="onHover" on-leave="onLeave" readonly="{{readonly}}"></div></div>
+                   <div class="rate-cl"> 
+                  <h2>Script Writer</h2>
+                   <div star rating-value="ratingVal4" max="max" on-hover="onHover" on-leave="onLeave" readonly="{{readonly}}"></div></div>
+                   <div class="rate-cl"> 
+                  <h2>Film & Stage Crew</h2>
+                   <div star rating-value="ratingVal5" max="max" on-hover="onHover" on-leave="onLeave" readonly="{{readonly}}"></div></div>
+                   <div class="rate-cl"> 
+                  <h2>Dancer</h2>
+                   <div star rating-value="ratingVal6" max="max" on-hover="onHover" on-leave="onLeave" readonly="{{readonly}}"></div></div>
+                   <div class="rate-cl"> 
+                  <h2>Musician</h2>
+                   <div star rating-value="ratingVal7" max="max" on-hover="onHover" on-leave="onLeave" readonly="{{readonly}}"></div></div>
+                   <div class="rate-cl">  
+                  <h2>Singer</h2>
+                   <div star rating-value="ratingVal8" max="max" on-hover="onHover" on-leave="onLeave" readonly="{{readonly}}"></div></div>
+
+  
+
+  <div>
+  
+  
+
+  </div>
+</div></div>
+                  <div class="ppb">
+                  
+                  <div class="col-sm-9 ppb-cnt">
+                  <div id="section1">
+                  <h2>About me</h2>
+                 
+                     <p>Hi I'm 19 year old English & Italian actress, trained actor in Theatre & Musical Theatre. Since a young age passionate for acting, singing and dancing, and performing these on stage. Would like to have more film/tv experience. You can check my current experience on Starnow and Spotlight, where there is also a recent demoreel. Have also lately taken an interest in voice acting. I speak multiple languages as mentioned below and can do certain accents. Over the years I've built a bit of a fan base thanks to my cosplaying, mainly Amy Pond from Doctor Who. I've lived in three different countries and now I currently live in Liverpool, UK. Though, I'm willing to travel for paid work. Versatile, on time, constant learner, ready for all challenges. Can send video auditions/ recordings any time, just ask
+</p>
+
+<h2>My Experience</h2>
+<p>MODELING (2015-2016)</p>
+<p>Under the name Isabella McNamara-Catalano (born name) or Isabella Catalano 
+Awarded Miss Liverpool 2015.
+</p>
+
+<p>Won 1st place Modelvoter.com March 2016.
+</p>
+
+<h2>Professional Schools</h2>
+<p>MODELING (2015-2016)</p>
+<p>Under the name Isabella McNamara-Catalano (born name) or Isabella Catalano 
+Awarded Miss Liverpool 2015.
+</p>
+
+<p>Won 1st place Modelvoter.com March 2016.
+</p>
+</div>
+<div class="ppb ppp-all" id="section2">
+<h2>Photos</h2>
+                  <div class="spm">
+                  <ul>
+                    <li>
+                    <div class="ppp-r"><img src="img/photos/52448_7059936.jpg"></div>
+                      <div class="ppp-r"><img src="img/photos/52448_4637051.jpg"></div>
+                        <div class="ppp-r"><img src="img/photos/52448_4637058.jpg"></div>
+                          <div class="ppp-r"><img src="img/photos/52448_7084665.jpg"></div>
+                            <div class="ppp-r"><img src="img/photos/52448_7060003.jpg"></div>
+                    
+                    </li>
+                    <li>
+                     <div class="ppp-r"><img src="img/photos/52448_7059978.jpg"></div>
+                        <div class="ppp-r"><img src="img/photos/52448_1330507.jpg"></div>
+                           <div class="ppp-r"><img src="img/photos/52448_2639682.jpg"></div>
+                            
+                    </li>
+                    <li>
+                        <div class="ppp-r"><img src="img/photos/52448_7059976.jpg"></div>
+                        <div class="ppp-r"><img src="img/photos/52448_7059974.jpg"></div>
+                           <div class="ppp-r"><img src="img/photos/52448_7060006.jpg"></div>
+                              <div class="ppp-r"><img src="img/photos/52448_4637051.jpg"></div>
+                            
+                    </li>
+                  </ul>
+                  
+                  
+                    </div>
+                
+                  </div>
+                  
+                  <div class="ppb ppp-all" id="section3">
+                  <h2>Videos</h2>
+                  <div class="spm">
+                  <ul>
+                    <li>
+                    <div class="ppp-v">
+                    <iframe width="100%" height="150" src="https://www.youtube.com/embed/BrIkUBI_37I" 
+                            frameborder="0" allowfullscreen></iframe><span>Video Title</span>
+</div>
+                    
+                    
+                    </li>
+                    <li>
+                    <div class="ppp-v">
+                    <iframe width="100%" height="150" src="https://www.youtube.com/embed/BrIkUBI_37I" 
+                            frameborder="0" allowfullscreen></iframe><span>Video Title</span>
+</div>
+                    
+                   
+                            
+                    </li>
+                    <li>
+                    <div class="ppp-v">
+                    <iframe width="100%" height="150" src="https://www.youtube.com/embed/BrIkUBI_37I" 
+                            frameborder="0" allowfullscreen></iframe><span>Video Title</span>
+</div>
+                       
+                            
+                    </li>
+                    
+                           <li>
+                    <div class="ppp-v">
+                    <iframe width="100%" height="150" src="https://www.youtube.com/embed/BrIkUBI_37I" 
+                            frameborder="0" allowfullscreen></iframe><span>Video Title</span>
+</div>
+                    
+                    
+                    </li>
+                    <li>
+                    <div class="ppp-v">
+                    <iframe width="100%" height="150" src="https://www.youtube.com/embed/BrIkUBI_37I" 
+                            frameborder="0" allowfullscreen></iframe><span>Video Title</span>
+</div>
+                    
+                   
+                            
+                    </li>
+                    <li>
+                    <div class="ppp-v">
+                    <iframe width="100%" height="150" src="https://www.youtube.com/embed/BrIkUBI_37I" 
+                            frameborder="0" allowfullscreen></iframe><span>Video Title</span>
+</div>
+                       
+                            
+                    </li>
+                  </ul>
+                  
+                  
+                    </div>
+                
+                  </div>
+                  
+                  
+                  
+
+
+                   </div>
+                    <div class="col-sm-3 "><div class="abt-bf sticky">
+                    <h2>Other Details</h2>
+                    <p><i class="fa fa-angle-right" aria-hidden="true"></i> Gender:<span> Female</span></p>
+                       <p><i class="fa fa-angle-right" aria-hidden="true"></i>Nationality:<span>Indian</span></p>
+                          <p><i class="fa fa-angle-right" aria-hidden="true"></i>Located in <span>New Delhi</span></p>
+                          <hr>
+                             <p><i class="fa fa-angle-right" aria-hidden="true"></i>Languages Known:<span>English, Hindi</span></p>
+                                <p><i class="fa fa-angle-right" aria-hidden="true"></i>Height:<span>5 feet 5 inches</span></p>
+                                   <p><i class="fa fa-angle-right" aria-hidden="true"></i>Weight:<span>55 Kg's</span></p>
+                                      <p><i class="fa fa-angle-right" aria-hidden="true"></i>Skin Color:<span>Fair</span></p>
+                                         <p><i class="fa fa-angle-right" aria-hidden="true"></i>Eye Color:<span>Brown</span></p>
+                                         <a href="#" class="flw">Share  Profile</a>
+                    </div></div>
+                
+                  </div>
+                   
+                  
+                  
+                  </div>
+                  
+                  
+                  
+                  
+                  
+            
+       
+          
+</div>            
+    </div>
+    <!--  popup  -->
+    <div id="talent" class="white-popup mfp-with-anim mfp-hide">I am a talent</div>
+    <div id="Producer" class="white-popup mfp-with-anim mfp-hide">I am a Producer.</div>
+    <div id="register" class="white-popup mfp-with-anim mfp-hide">Register</div>
+    <div id="video" class="white-popup mfp-with-anim mfp-hide">Register</div>
+    <!--  popup End  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Js/modernizr.2.7.1.min.js"></script>
+    <script type="text/javascript">
+	
+		var offset = $('.sticky').offset();
+$(window).scroll(function(){
+   //$('#mine').text($(document).scrollTop());
+  $('.sticky').addClass('fixed-nav');
+  
+  if($(document).scrollTop() < 340){
+         $('.sticky').removeClass('fixed-nav');
+  }
+  
+  
+});
+
+// Page Scroll
+jQuery(document).ready(function ($) {
+	$('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+			|| location.hostname == this.hostname) {
+
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+				$('html,body').animate({
+					scrollTop: target.offset().top - 70
+				}, 1000);
+				return false;
+			}
+		}
+	});
+});
+ </script>
+
+    <!-- For FullPage Scroll and Dotted Nav -->
+
+    <script src="http://bxslider.com/lib/jquery.bxslider.js"></script>
+    <script src='http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js'></script>
+    <script type="text/javascript" src="Js/custom.js"></script>
+    <!-- Angulsr js -->
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>       
+         <script src="http://crisbeto.github.io/angular-svg-round-progressbar/roundProgress.min.js"></script> 
+         <script type="text/javascript" src="Js/gallery.js"></script>  
+ 
+    <script type="text/javascript" src="Js/controler.js"></script>
+</body>
+</html>
